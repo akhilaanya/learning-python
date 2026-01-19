@@ -70,7 +70,7 @@ def create_name(first, last):
     first = first.capitalize()
     #.capitalize() is a method; see methods.py for more info
     last = last.capitalize()
-    return first + last
+    return first + " " + last
 
 full_name = create_name("akhila", "anya")
 
